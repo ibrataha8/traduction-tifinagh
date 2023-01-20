@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <title>Traduction - Tifinagh</title><script src="https://kit.fontawesome.com/6e1f11847a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <article>
+      <header>Arabe <i class="fa-solid fa-right-left"></i> Tifinagh</header>
+      <ul class="button">
+        <li class="row form">
+          <select id="sourceList">
+          </select>
+        </li>
+        <li class="change"><i class="fasfa-exchange-alt"></i></li>
+        <li class="row to">
+          <select>
+            <option>Tifinagh</option>
+            <!-- <option>عربية</option> -->
+          </select>
+        </li>
+      </ul>
+      <div class="groupy">
+        <div class="text-input">
+          <textarea 
+          id="textSource"
+            spellcheck="false"
+            class="from-text"
+            placeholder="Type your text"
+          ></textarea>
+          <textarea
+          id="textDesination"
+            spellcheck="false"
+            readonly
+            disabled
+            class="to-text"
+            placeholder="Translation"
+          ></textarea>
+        </div>
+      </div>
+    </article>
+    <script src="script.js"></script>
+  </body>
+</html>

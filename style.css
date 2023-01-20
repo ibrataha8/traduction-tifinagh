@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    display: flex;
+    padding: 0 10px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #3b3b3b;
+}
+header{
+    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-size: 25px;
+    color: #1A73E8;
+    text-decoration: dashed;
+}
+article{
+    max-width: 690px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    background-color: #F5F5F5;
+}
+.button,li,i{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+article button {
+    width: 30%;
+    padding: 14px;
+    border: none;
+    margin-top: 9px;
+    font-size: 17px;
+    background-color: #0600363e;
+    border-radius: 100px;
+    color: rgb(47, 47, 47);
+    cursor: pointer;
+}
+article .button{
+    padding: 12px 0;
+}
+article .button, li , i {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button .row select{
+    color: #333;
+    padding: 5px 10px;
+    font-size: 18px;
+    border: 2px solid #080808;
+    background: none;
+}
+.button .change{
+    color: #F5F5F5;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2 ease;
+}
+.button i:active{
+    transform: scale(0.9);
+}
+.groupy{
+    border: 2px solid #080808;
+    background: #fccaca;
+}
+.groupy .text-input{
+    display: flex;
+}
+.text-input .to-text{
+    border-left: 2px solid #080808;
+}
+.text-input textarea{
+    resize: none;
+    height: 100px;
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    padding: 10px 15px;
+}
